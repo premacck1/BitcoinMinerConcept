@@ -92,7 +92,7 @@ class HandleMiners implements Runnable{
 	private DataInputStream is = null;
 	private DataOutputStream os = null;
 	private Socket socket = null;
-	private int numZeros = 4;
+	private int numZeros = 4;  // specify number of leading zero target
 
 	public HandleMiners(Socket soc) {
 		socket = soc;
